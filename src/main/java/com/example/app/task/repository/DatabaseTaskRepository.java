@@ -2,7 +2,6 @@ package com.example.app.task.repository;
 
 import com.example.app.task.data.Database;
 import com.example.app.task.entity.Task;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
