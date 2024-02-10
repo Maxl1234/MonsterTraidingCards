@@ -27,6 +27,7 @@ public class UserController extends Controller {
             switch (request.getMethod()){
                 case "GET": return listUsers(request);
                 case "Post": return createUser(request);
+                case "PUT": return updateUser(request);
 
             }
 
@@ -41,4 +42,7 @@ public class UserController extends Controller {
     public Response createUser(Request request){
         return status(HttpStatus.BAD_REQUEST);
     };
+    public Response updateUser(Request request){
+        return status(HttpStatus.BAD_REQUEST);
+    }
 }
